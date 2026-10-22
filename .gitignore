@@ -1,0 +1,37 @@
+# Local .terraform directories
+**/.terraform/*
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude sensitive tfvars
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# SSH Private Keys (NEVER commit private keys)
+terra-automate-key
+id_rsa
+id_ed25519
+*.pem
+*.key
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
